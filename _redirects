@@ -1,0 +1,156 @@
+# https://www.netlify.com/docs/redirects/
+
+# REPL builds, to preview pull requests
+/repl/build/:build /repl/ 200
+# Previous versions of the REPL
+/repl/version/:version /repl/ 200
+
+# Redirect aliases
+https://new.babeljs.io/* https://babeljs.io/:splat 301!
+https://babel.netlify.com/* https://babeljs.io/:splat 301!
+
+/php.html                           https://old.babeljs.io/php/
+/repl_old.html                      https://old.babeljs.io/repl/
+/repl_old                           https://old.babeljs.io/repl/
+/7/                                 https://old.babeljs.io/repl/build/7.0/
+/7.html                             https://old.babeljs.io/repl/build/7.0/
+
+/assumptions                        /docs/assumptions
+
+# after docusaurus rewrite
+/php/                               https://old.babeljs.io/php/
+/docs/usage/cli/                    /docs/babel-cli/
+/docs/usage/api/                    /docs/babel-core/
+/docs/core-packages/                /docs/babel-core/
+/docs/usage/polyfill/               /docs/babel-polyfill/
+/docs/usage/babel-register/         /docs/babel-register/
+/docs/usage/babelrc/                /docs/config-files/
+/docs/usage/caveats/                /docs/caveats/
+/env/                               /docs/env/
+/faq/                               /docs/faq/
+/learn-es2015/                      /docs/learn/
+/docs/setup/                        /setup/
+/docs/community/videos/             /videos/
+/core-packages/babel-types/         /docs/babel-types/
+/core-packages/babel-template/      /docs/babel-template/
+/core-packages/babel-helpers/       /docs/babel-helpers/
+/core-packages/babel-code-frame/    /docs/babel-code-frame/
+/core-packages/babylon/             /docs/babylon/
+/docs/en/babylon/                   /docs/babel-parser
+
+/docs/using-babel/                  /setup
+/plugins.html                       /setup
+/docs/using-6to5/                   /setup
+/docs/usage/browser/                /setup
+/browser.html                       /setup
+/docs/advanced/plugins/             /docs/plugins
+/docs/usage/modules/                /docs/plugins
+/usage.html                         /docs/babel-cli
+/docs/faq/                          /docs/faq
+/docs/learn-es6/                    /docs/learn
+/docs/learn-es2015/                 /docs/learn
+/features.html                      /docs/learn
+/docs/tour/                         /docs/learn
+/docs/core-packages/babel-register/ /docs/babel-register
+/docs/usage/require/                /docs/babel-register
+/docs/usage/options/                /docs/options
+/caveats.html                       /docs/caveats
+/repl.html                          /repl
+/en/repl                            /repl
+
+/docs/plugins/preset-*              /docs/babel-preset-:splat
+/docs/plugins/transform-*           /docs/babel-plugin-transform-:splat
+/docs/plugins/syntax-*              /docs/babel-plugin-syntax-:splat
+/docs/plugins/minify-*              /docs/babel-plugin-minify-:splat
+/docs/plugins/external-helpers/     /docs/babel-plugin-external-helpers
+
+# Removed packages
+/docs/babel-highlight /docs/babel-code-frame#migrating-from-babelhighlight
+
+# Plugins renamed from -proposal- to -transform-
+/docs/babel-plugin-proposal-class-static-block                      /docs/babel-plugin-transform-class-static-block
+/docs/babel-plugin-proposal-private-property-in-object              /docs/babel-plugin-transform-private-property-in-object
+/docs/babel-plugin-proposal-class-properties                        /docs/babel-plugin-transform-class-properties
+/docs/babel-plugin-proposal-private-methods                         /docs/babel-plugin-transform-private-methods
+/docs/babel-plugin-proposal-numeric-separator                       /docs/babel-plugin-transform-numeric-separator
+/docs/babel-plugin-proposal-dynamic-import                          /docs/babel-plugin-transform-dynamic-import
+/docs/babel-plugin-proposal-logical-assignment-operators            /docs/babel-plugin-transform-logical-assignment-operators
+/docs/babel-plugin-proposal-nullish-coalescing-operator             /docs/babel-plugin-transform-nullish-coalescing-operator
+/docs/babel-plugin-proposal-optional-chaining                       /docs/babel-plugin-transform-optional-chaining
+/docs/babel-plugin-proposal-json-strings                            /docs/babel-plugin-transform-json-strings
+/docs/babel-plugin-proposal-optional-catch-binding                  /docs/babel-plugin-transform-optional-catch-binding
+/docs/babel-plugin-proposal-async-generator-functions               /docs/babel-plugin-transform-async-generator-functions
+/docs/babel-plugin-proposal-object-rest-spread                      /docs/babel-plugin-transform-object-rest-spread
+/docs/babel-plugin-proposal-unicode-property-regex                  /docs/babel-plugin-transform-unicode-property-regex
+/docs/babel-plugin-proposal-unicode-sets-regex                      /docs/babel-plugin-transform-unicode-sets-regex
+/docs/babel-plugin-proposal-export-namespace-from                   /docs/babel-plugin-transform-export-namespace-from
+/docs/babel-plugin-proposal-duplicate-named-capturing-groups-regex  /docs/babel-plugin-transform-duplicate-named-capturing-groups-regex
+/docs/babel-plugin-proposal-regexp-modifiers                        /docs/babel-plugin-transform-regexp-modifiers
+/docs/babel-plugin-proposal-json-modules                            /docs/babel-plugin-transform-json-modules
+/docs/babel-plugin-proposal-explicit-resource-management            /docs/babel-plugin-transform-explicit-resource-management
+
+# Legacy redirects
+/docs/en/babel-plugin-transform-decorators                      /docs/babel-plugin-proposal-decorators
+/docs/en/babel-plugin-transform-do-expressions                  /docs/babel-plugin-proposal-do-expressions
+
+/docs/plugins/check-es2015-constants/ /docs/babel-plugin-check-es2015-constants
+/docs/plugins/transform-es2015-constants /docs/babel-plugin-check-es2015-constants
+/docs/plugins/undeclared-variables-check/ /docs/babel-plugin-undeclared-variables-check
+
+/docs/en/next/tools/*               /setup
+
+# Blog rewrites
+/7.28.0 /blog/2025/06/30/7.28.0
+/7.27.0 /blog/2025/03/24/7.27.0
+/7.26.0 /blog/2024/10/25/7.26.0
+/7.25.0 /blog/2024/07/26/7.25.0
+/7.24.0 /blog/2024/02/28/7.24.0
+/7.23.0 /blog/2023/09/25/7.23.0
+/7.22.0 /blog/2023/05/26/7.22.0
+/7.21.0 /blog/2023/02/20/7.21.0
+/7.20.0 /blog/2022/10/27/7.20.0
+/7.19.0 /blog/2022/09/05/7.19.0
+/7.18.0 /blog/2022/05/19/7.18.0
+/7.17.0 /blog/2022/02/02/7.17.0
+/7.16.0 /blog/2021/10/29/7.16.0
+/7.15.0 /blog/2021/07/26/7.15.0
+/7.14.0 /blog/2021/04/29/7.14.0
+/7.13.0 /blog/2021/02/22/7.13.0
+/7.12.0 /blog/2020/10/15/7.12.0
+/7.11.0 /blog/2020/07/30/7.11.0
+/7.10.0 /blog/2020/05/25/7.10.0
+/7.9.0 /blog/2020/03/16/7.9.0
+/7.8.0 /blog/2020/01/11/7.8.0
+/7.7.0 /blog/2019/11/05/7.7.0
+/7.6.0 /blog/2019/09/05/7.6.0
+/7.5.0 /blog/2019/07/03/7.5.0
+/7.4.0 /blog/2019/03/19/7.4.0
+/7.3.0 /blog/2019/01/21/7.3.0
+/7.2.0 /blog/2018/12/03/7.2.0
+/7.1.0 /blog/2018/09/17/7.1.0
+/7.0.0 /blog/2018/08/27/7.0.0
+/6.23.0 /blog/2017/02/13/6.23.0
+/6.23.3 /blog/2017/02/13/6.23.0
+
+# Docusaurus versioning rewrites
+# We have disabled docusaurus versioning since 7.11, they are preserved for link compatibility
+
+/docs/en/next/*                     /docs/:splat
+/docs/en/7.10.0/*                   /docs/:splat
+/docs/en/7.9.0/*                    /docs/:splat
+/docs/en/7.8.0/*                    /docs/:splat
+/docs/en/7.7.0/*                    /docs/:splat
+/docs/en/7.6.0/*                    /docs/:splat
+/docs/en/7.5.0/*                    /docs/:splat
+/docs/en/7.4.0/*                    /docs/:splat
+/docs/en/7.3.0/*                    /docs/:splat
+/docs/en/7.2.0/*                    /docs/:splat
+/docs/en/7.1.0/*                    /docs/:splat
+/docs/en/7.0.0/*                    /docs/:splat
+
+# Docusaurus v1 compat
+
+/docs/en/* /docs/:splat
+
+# CircleCI CORS
+/circleci/api/* https://circleci.com/api/v1.1/project/github/babel/babel/:splat 200

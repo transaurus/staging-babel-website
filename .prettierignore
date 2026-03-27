@@ -1,0 +1,9 @@
+package.json
+package-lock.json
+yarn.lock
+i18n/
+
+# Automatically generated
+docs/types.md
+website/static/js/build/
+website/static/repl/

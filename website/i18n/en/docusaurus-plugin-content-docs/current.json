@@ -1,0 +1,126 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.Guides": {
+    "message": "Guides",
+    "description": "The label for category 'Guides' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Config Reference": {
+    "message": "Config Reference",
+    "description": "The label for category 'Config Reference' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Presets": {
+    "message": "Presets",
+    "description": "The label for category 'Presets' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.@babel/preset-env": {
+    "message": "@babel/preset-env",
+    "description": "The label for category '@babel/preset-env' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.ES2026": {
+    "message": "ES2026",
+    "description": "The label for category 'ES2026' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.ES2025": {
+    "message": "ES2025",
+    "description": "The label for category 'ES2025' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.ES2024": {
+    "message": "ES2024",
+    "description": "The label for category 'ES2024' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.ES2022": {
+    "message": "ES2022",
+    "description": "The label for category 'ES2022' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.ES2021": {
+    "message": "ES2021",
+    "description": "The label for category 'ES2021' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.ES2020": {
+    "message": "ES2020",
+    "description": "The label for category 'ES2020' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.ES2019": {
+    "message": "ES2019",
+    "description": "The label for category 'ES2019' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.ES2018": {
+    "message": "ES2018",
+    "description": "The label for category 'ES2018' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.ES2017": {
+    "message": "ES2017",
+    "description": "The label for category 'ES2017' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.ES2016": {
+    "message": "ES2016",
+    "description": "The label for category 'ES2016' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.ES2015": {
+    "message": "ES2015",
+    "description": "The label for category 'ES2015' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.ES5": {
+    "message": "ES5",
+    "description": "The label for category 'ES5' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.ES3": {
+    "message": "ES3",
+    "description": "The label for category 'ES3' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Bugfix": {
+    "message": "Bugfix",
+    "description": "The label for category 'Bugfix' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.@babel/preset-react": {
+    "message": "@babel/preset-react",
+    "description": "The label for category '@babel/preset-react' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.@babel/preset-typescript": {
+    "message": "@babel/preset-typescript",
+    "description": "The label for category '@babel/preset-typescript' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.@babel/preset-flow": {
+    "message": "@babel/preset-flow",
+    "description": "The label for category '@babel/preset-flow' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Misc": {
+    "message": "Misc",
+    "description": "The label for category 'Misc' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Integration Packages": {
+    "message": "Integration Packages",
+    "description": "The label for category 'Integration Packages' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Tooling Packages": {
+    "message": "Tooling Packages",
+    "description": "The label for category 'Tooling Packages' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Helper Packages": {
+    "message": "Helper Packages",
+    "description": "The label for category 'Helper Packages' in sidebar 'docs'"
+  },
+  "sidebar.plugins.category.Modules": {
+    "message": "Modules",
+    "description": "The label for category 'Modules' in sidebar 'plugins'"
+  },
+  "sidebar.plugins.category.TC39 Proposals": {
+    "message": "TC39 Proposals",
+    "description": "The label for category 'TC39 Proposals' in sidebar 'plugins'"
+  },
+  "sidebar.plugins.category.Stage 3": {
+    "message": "Stage 3",
+    "description": "The label for category 'Stage 3' in sidebar 'plugins'"
+  },
+  "sidebar.plugins.category.Early stages": {
+    "message": "Early stages",
+    "description": "The label for category 'Early stages' in sidebar 'plugins'"
+  },
+  "sidebar.plugins.category.Web Compatibility": {
+    "message": "Web Compatibility",
+    "description": "The label for category 'Web Compatibility' in sidebar 'plugins'"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "logo.alt": {
+    "message": "Babel logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Setup": {
+    "message": "Setup",
+    "description": "Navbar item with label Setup"
+  },
+  "item.label.Try it out": {
+    "message": "Try it out",
+    "description": "Navbar item with label Try it out"
+  },
+  "item.label.Videos": {
+    "message": "Videos",
+    "description": "Navbar item with label Videos"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.Donate": {
+    "message": "Donate",
+    "description": "Navbar item with label Donate"
+  },
+  "item.label.Team": {
+    "message": "Team",
+    "description": "Navbar item with label Team"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

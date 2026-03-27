@@ -1,0 +1,10 @@
+{
+  "sourceUrl": "https://github.com/babel/website",
+  "branch": "main",
+  "docusaurusRoot": "website",
+  "configFile": "website/docusaurus.config.ts",
+  "translateCommand": "npx docusaurus write-translations",
+  "buildCommand": "npx docusaurus build --out-dir build/babel",
+  "buildOutput": "build/babel",
+  "packageManager": "yarn"
+}

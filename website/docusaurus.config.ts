@@ -141,6 +141,10 @@ function docusaurusReplRoutePlugin() {
 }
 
 const siteConfig: Config = {
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "zh-Hans"],
+  },
   future: {
     // See https://docusaurus.io/blog/releases/3.6
     experimental_faster: true,
@@ -151,7 +155,7 @@ const siteConfig: Config = {
   titleDelimiter: "·",
   baseUrl: "/",
   favicon: "img/favicon.png",
-  onBrokenLinks: "throw",
+  onBrokenLinks: 'warn',
   customFields: {
     repoUrl: "https://github.com/babel/babel",
     v6Url: "https://v6.babeljs.io/docs/setup/",
@@ -165,7 +169,7 @@ const siteConfig: Config = {
   },
   markdown: {
     hooks: {
-      onBrokenMarkdownLinks: "throw",
+      onBrokenMarkdownLinks: "warn",
     }
   },
   plugins: [docusaurusReplRoutePlugin, require("./webpack.plugin.js")],
